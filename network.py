@@ -1,14 +1,13 @@
-from keras.models import Sequential
-from keras.optimizers import Adam
-from keras.layers import Dense, Input, TimeDistributed, GRU, LSTM
-import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.layers import Dense, TimeDistributed, GRU, LSTM
 from tensorflow.keras.models import Model
+import tensorflow as tf
 
 def build_model(step):
 
     model = Sequential()
 
-    # model.add(Input(shape = (None, input_shape)))
     model.add(LSTM(32, return_sequences=True, input_shape=(None, step)))
     model.add(LSTM(32, return_sequences=True))
     model.add(LSTM(32))
