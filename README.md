@@ -16,11 +16,7 @@ Then you can start the training with
 python classifier.py --train
 ```
 
-<<<<<<< HEAD
 If you simply want to try it out with your words check [this notebook](https://mybinder.org/v2/gh/gerkone/gender-classifier-italian/9c55f8797fd4ee2f760bd568bf09c09f71bb64d9?filepath=gender-classifier-italian.ipynb).
-=======
-If you simply want to try it out with your words check [this notebook](https://cocalc.com/projects/8c38a9b8-86fa-43d7-81e1-efb5add01b9b/files/gender-classifier-italian.ipynb).
->>>>>>> 5824aa8501da3d6ff984d99f69b2782e009fd333
 
 ## Dataset
 The dataset was created using [this](http://badip.uni-graz.at/it/) corpus.
